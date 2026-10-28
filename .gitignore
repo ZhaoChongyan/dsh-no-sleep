@@ -1,0 +1,24 @@
+# Dependencies / build output
+node_modules/
+native/out/
+*.dll
+*.pdb
+
+# Install-time metadata pnpm leaves in a linked package
+# (the real lockfile of an install belongs to the profile, not this package)
+pnpm-lock.yaml
+.npmrc
+
+# Packed tarballs and logs
+*.tgz
+*.log
+npm-debug.log*
+
+# OS / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo

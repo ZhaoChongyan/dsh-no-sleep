@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-no-sleep
+      name: '@local/no-sleep'
+      config:
+        enabled: true
+        mode: display
